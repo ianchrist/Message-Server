@@ -9,32 +9,34 @@ In order to run the server, you must follow these steps:
 After this, you should be able to send any message to other users who followed the same steps and are on the same network.  To do this, you specify the IP address of who your message will send to, your IP address, and then the message.  
 For example: 198.44.243.95 206.20.214.117 Hello
 
-The files included are as follows: 
+The files included and their functions are as follows: 
 
-Action Message 
+ActionMessage: Used to send and print messages.
 
-Action Update Message 
+ActionUpdateMessage: Used to update the IP address directory.
 
-Advice
+Advice: Allows us to use solicited and unsolicited advice files.
 
-Client
+Client: Where messages are to be sent from.
 
-Directory
+Directory: Contains a list of users along with the IP addresses associated with them.
 
-Driver
+Driver: Creates objects that will display various pieces of advice.
 
-Fortune Cookie
+FortuneCookie: Allows us to create an object with will give us random fortune cookie messages.
 
-GetAdviceAction
+GetAdviceAction: Connects to ActionMessage.
 
-MagicEightBall
+MagicEightBall: Gives us a random message from a magic eight ball.
 
-MagicPirateBall
+MagicPirateBall: Gives us a MagicEightBall message, but in pirate language.
 
-ParentalAdvice
+ParentalAdvice: Gives us a random peace of parental advice.
 
-Server
+Server: Allows us to send message from the client and allows the client to receive messages.
 
-SolicitedAdvice
+SolicitedAdvice: Allows the MagicEightBall and MagicPirateBall to function
 
-UnsolisitedAdvice
+UnsolisitedAdvice: Allows the ParentalAdvice and FortuneCookie to function
+
+For a more detailed explanation, each of the files have documentations.  This documentations includes the function of the classes, methods, and variables in much more detail.
